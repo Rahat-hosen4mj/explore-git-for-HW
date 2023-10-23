@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.card{
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 5px 9px greenyellow;
+    transition: 0.3s;
+    font-size: 0;
+}
+.card:hover{
+    box-shadow: 0 10px 7px rgba(255, 0, 0, 0.473);
+}
+.card-head #result{
+    width: 335px;
+    height: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+}
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    background-color: dimgrey;
+    color: #fff;
+    margin: 1px;
+}
+.btn-style{
+    background-color: greenyellow;
+}
+.btn:hover{
+    background-color: honeydew;
+    color: springgreen;
+}
